@@ -1,0 +1,1 @@
+let newSection = ["World", "local", "Opinion",] 

@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 5px;
+  grid-area: main;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+header {
+  grid-area: header;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  color: #171717;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.text-sections {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.about-body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main aside";
+}
+
+aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+aside img {
+  width: 306px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+aside p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav Bar Stuff */
+nav {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  grid-area: nav;
+}
+
+nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown stuff */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(105, 103, 103);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* MenuList stuff */
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.menu-details {
+  padding: 15px;
+}
+
+.menu-details h2 {
+  margin: 10px 0;
+}
+
+/* Contact Stuff */
+.contact-form {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(74, 74, 74, 0.1);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #e70a0a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #c30909;
+}
