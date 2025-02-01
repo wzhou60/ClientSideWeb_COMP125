@@ -273,3 +273,40 @@ nav a:hover,
 .order-summary {
   font-size: 18px;
 }
+
+/* Calendar */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.day-name {
+  font-weight: bold;
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.day {
+  width: 89%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center;
+  height: 90px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.has-order {
+  background-color: #ffe6e6;
+  border: 1px solid #e70a0a;
+}
+
+.order-details {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #444;
+}

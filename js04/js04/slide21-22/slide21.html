@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        function calculatePay(){
+         let payRate = 15; numHours = 40;
+         let grossPay = payRate * numHours;
+      console.log("grossPay = " + grossPay);
+         let federalTaxes = grossPay * 0.07;
+         let stateTaxes = grossPay * 0.05;
+         let socialSecurity = grossPay * 0.06;
+         let medicare = grossPay * 0.015;
+         let netPay = grossPay - federalTaxes;
+         netPay -= stateTaxes;
+      console.log("grossPay minus taxes = " + netPay);
+         netPay *= socialSecurity;
+         netPay *= medicare;
+      console.log("grossPay minus taxes and withholdings = " + netPay);
+      
+         return netPay;
+        }
+        calculatePay();
+        </script>
+
+</body>
+</html>
