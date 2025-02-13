@@ -92,7 +92,7 @@ function creatLightbox() {
     let figureBox = document.createElement("figure");
     overlay.appendChild(figureBox);
 
-    //add image to the figure box
+    //add image to the figure box   
     let overlayImage = this.cloneNode(true);
     figureBox.appendChild(overlayImage);
 
