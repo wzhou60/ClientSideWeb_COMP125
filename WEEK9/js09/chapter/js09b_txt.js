@@ -44,6 +44,32 @@ document.getElementById("signupBtn").onclick = function () {
   // write each field name and value to local storage
   for (let fields of formFields) {
     localStorage.setItem(fields.name, fields.value);
+    writeCookie(fields.name, fields.value);
   }
   console.log(localStorage);
 };
+console.log(qString);
+
+function writeCookie(name, value, expDate, path, domain, secure) {
+  if (name && value) {
+    let cStr = name + "=" + encodeURIComponent(value);
+    if (expDate) cStr += ";expires=" + expDate.toUTCString();
+    if (path) cStr += ";path=" + path;
+    if (domain) cStr += ";domain=" + domain;
+    if (secure) cStr += ";secure";
+    document.cookie = cStr;
+  }
+}
+function readCookie() {
+  let fields = {};
+  if (document.cookie) {
+    let cookieList = document.cookie.split("; ");
+    for (items of cookieList) {
+      let cookie = items.split("=");
+      let name = cookie[0];
+      let value = decodeURIComponent(cookie[1]);
+      fields[name] = value;
+    }
+    return fields;
+  }
+}

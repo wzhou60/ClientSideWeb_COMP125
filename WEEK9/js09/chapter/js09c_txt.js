@@ -44,3 +44,8 @@ document.getElementById("removePrefBtn").onclick = function () {
     localStorage.removeItem(item);
   }
 };
+
+window.onstorage = function (e) {
+  console.log("The " + e.key + " value was changed from " + 
+    e.oldValue + " to " + e.newValue);
+};
