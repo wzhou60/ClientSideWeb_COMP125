@@ -83,6 +83,9 @@ window.addEventListener("load", function () {
     let subButton = document.getElementById("subButton");
     // Validate the payment when the submit button is clicked
     subButton.addEventListener("click", validateName);
+
+
+    
     //Check if a credit card has been selected
     function validateCard() {
       let card = document.forms.payment.elements.credit[0];
