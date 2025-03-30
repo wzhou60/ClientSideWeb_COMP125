@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McRonalds</title>
     <link rel="stylesheet" href="style.css">
-    <script src="a4.js"></script>
+    <script src="a4.js" defer></script>
+    <!-- <script src="a5.js"></script> -->
 </head>
 
 <body>
@@ -37,22 +38,23 @@
             <h2>Please fill out the form below:</h2>
             <form id="reg-form">
                 <label for="name">First Name:</label>
-                <input type="text" name="f-name" id="f-name" required>
+                <input type="text" name="fname" id="fname" required>
 
                 <label for="name">Last Name:</label>
-                <input type="text" id="l-name" required>
+                <input type="text" name="lname" id="lname" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" pattern=".+@.+\..+" required>
+                <input type="email" name="email" id="email" pattern=".+@.+\..+" required>
 
                 <label for="age">Age:</label>
-                <input type="number" id="age" min="18" required>
+                <input type="number" name="age" id="age" min="18" required>
 
                 <label for="postalCode">Postal Code:</label>
-                <input type="text" id="postalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" required>
+                <input type="text" name="postalCode" id="postalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]"
+                    required>
 
                 <label for="province">Province:</label>
-                <select id="province" required>
+                <select name="province" id="province" required>
                     <option value="QC">Quebec (QC)</option>
                     <option value="ON">Ontario (ON)</option>
                     <option value="MN">Manitoba (MN)</option>
@@ -67,8 +69,10 @@
                 <label for="confirmPassword">Confirm Password:</label>
                 <input type="password" id="confirmPassword" required>
 
-                <button type="submit" id="submit">Register</button>
-                <button type="reset">Clear Form</button>
+                <fieldset>
+                    <button type="submit" id="register">Register</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
 
             </form>
 
