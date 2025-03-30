@@ -19,14 +19,15 @@ function initMap() {
 
   // Get the device's current position
   navigator.geolocation.getCurrentPosition(getPos);
-  //handleError();
+  
+  routeBox.textContent = "Directions to McRonalds:";
 
   function getPos(pos) {
     let myPosition = {
       lat: pos.coords.latitude,
       lng: pos.coords.longitude,
     };
-    console.log(myPosition);
+    console.log("my location: "+ myPosition);
 
     let routeFind = new google.maps.DirectionsService();
     let routeDraw = new google.maps.DirectionsRenderer();
@@ -50,9 +51,8 @@ function initMap() {
       }
     });
 
-    // In case of geolocation error
-    function handleError(err) {
+/*     function handleError(err) {
       console.log("Geolocation error: " + err.message);
-    }
+    } */
   }
 }
