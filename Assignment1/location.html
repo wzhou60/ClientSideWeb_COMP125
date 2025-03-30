@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McRonalds Locations</title>
     <link rel="stylesheet" href="style.css">
+    <script src="location.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXuCsQtK_LTuwsWoIfbn_W6q15wZMKPvU&callback=initMap"
+        defer>
+        </script>
 </head>
 
 <body>
@@ -32,7 +36,9 @@
     <main>
         <section>
             <h1>Location</h1>
-            <p>Your favorite place for delicious meals!</p>
+            <p>Your favorite place for delicious meals! Find a location now!</p>
+            <div id="displayMap"></div>
+            <div id="routeBox"></div>
         </section>
     </main>
 </body>

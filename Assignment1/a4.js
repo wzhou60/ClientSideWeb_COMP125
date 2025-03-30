@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
   let province = document.getElementById("province");
   let password = document.getElementById("password");
   let confirmPassword = document.getElementById("confirmPassword");
-
+  let form = document.getElementById("reg-form");
   function validator() {
     let isValid = false;
     console.log(isValid);
@@ -32,16 +32,14 @@ window.addEventListener("load", function () {
       isValid = false;
     }
     if (isValid) {
-      console.log("Generating Query String...");
-      //getQueryString();
-      console.log("Query String:", queryString);
+      getQueryString();
 
-      //storeDataInCookie();
-      //storeDataInLocalStorage();
-      //retrieveAndLogData();
+      storeDataInCookie();
+      storeDataInLocalStorage();
+      retrieveAndLogData();
 
-      //alert("Thanks for registering! Your customer record was created successfully.");
-      //document.getElementById("reg-form").reset();
+      alert("Thanks for registering! Your customer record was created successfully.");
+      document.getElementById("reg-form").reset();
       for (var i = 0; i < selectElements.length; i++) {
         selectElements[i].selectedIndex = -1;
       }
@@ -156,15 +154,13 @@ window.addEventListener("load", function () {
 
   function getQueryString() {
     if (window.location.search) {
-      console.log("INSIDE LOCATION SEARCH");
-      console.log(window.location.search);
       var queryData = window.location.search;
       //Return the text after the first query string
       var queryData = queryData.slice(1);
-      console.log(queryData);
+      //console.log(queryData);
       //To convert it into an Array
       queryArray = queryData.split("&");
-      console.log(queryArray);
+      //console.log(queryArray);
     }
   }
 

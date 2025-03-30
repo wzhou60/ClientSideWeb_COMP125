@@ -601,3 +601,25 @@ select {
 .registration-form button:hover {
   background-color: #c30909;
 }
+
+/*
+//
+// MAP STUFF
+//
+*/
+
+div#displayMap {
+  width: 70%;
+  padding-bottom: 30%;
+  height: 0;
+  margin: 20px auto;
+  border: 3px solid gray;
+}
+
+div#routeBox {
+  width: 70%;
+  margin: 10px auto;
+  min-height: 50px;
+  border: 3px solid gray;
+  text-align: center;
+}
