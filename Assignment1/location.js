@@ -21,7 +21,6 @@ function initMap() {
   navigator.geolocation.getCurrentPosition(getPos);
   
   routeBox.textContent = "Directions to McRonalds:";
-
   function getPos(pos) {
     let myPosition = {
       lat: pos.coords.latitude,

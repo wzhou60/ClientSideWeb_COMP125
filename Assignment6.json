@@ -1,0 +1,1394 @@
+{
+    "title": "Assignment6",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1435,
+            "height": 136,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/home.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/home.html",
+                    "title": "McRonalds"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "nav > a:nth-of-type(2)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[2]"
+                ],
+                [
+                    "pierce/nav > a:nth-of-type(2)"
+                ],
+                [
+                    "aria/About"
+                ],
+                [
+                    "text/About"
+                ]
+            ],
+            "offsetY": 32,
+            "offsetX": 30.287506103515625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/about.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath//html/body/nav/div/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/Menu"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 24.875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(1)"
+                ],
+                [
+                    "xpath//html/body/nav/div/div/a[1]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(1)"
+                ],
+                [
+                    "aria/Calendar"
+                ],
+                [
+                    "text/Calendar"
+                ]
+            ],
+            "offsetY": 10.599998474121094,
+            "offsetX": 36.875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/calendar.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath//html/body/header/nav/div/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/Menu"
+                ]
+            ],
+            "offsetY": 29,
+            "offsetX": 48.475006103515625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(2)"
+                ],
+                [
+                    "xpath//html/body/header/nav/div/div/a[2]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(2)"
+                ],
+                [
+                    "aria/Gallery"
+                ],
+                [
+                    "text/Gallery"
+                ]
+            ],
+            "offsetY": 26.199996948242188,
+            "offsetX": 44.475006103515625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/gallery.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "img:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"lbImages\"]/img[3]"
+                ],
+                [
+                    "pierce/img:nth-of-type(3)"
+                ],
+                [
+                    "aria/Our Famous Fries"
+                ]
+            ],
+            "offsetY": 64.5,
+            "offsetX": 120
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#addToFavorites"
+                ],
+                [
+                    "xpath///*[@id=\"addToFavorites\"]"
+                ],
+                [
+                    "pierce/#addToFavorites"
+                ],
+                [
+                    "aria/Add to Favorites"
+                ],
+                [
+                    "text/Add to Favorites"
+                ]
+            ],
+            "offsetY": 9.08746337890625,
+            "offsetX": 124.29998779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "img:nth-of-type(4)"
+                ],
+                [
+                    "xpath///*[@id=\"lbImages\"]/img[4]"
+                ],
+                [
+                    "pierce/img:nth-of-type(4)"
+                ],
+                [
+                    "aria/Our Chicken Nuggets"
+                ]
+            ],
+            "offsetY": 75.0999984741211,
+            "offsetX": 73.70001220703125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#lbOverlayClose"
+                ],
+                [
+                    "xpath///*[@id=\"lbOverlayClose\"]"
+                ],
+                [
+                    "pierce/#lbOverlayClose"
+                ]
+            ],
+            "offsetY": 25,
+            "offsetX": 14.1624755859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "section img"
+                ],
+                [
+                    "xpath///*[@id=\"favorites\"]/div/img"
+                ],
+                [
+                    "pierce/section img"
+                ]
+            ],
+            "offsetY": 78.69998168945312,
+            "offsetX": 99
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main button"
+                ],
+                [
+                    "xpath///*[@id=\"favorites\"]/div/button"
+                ],
+                [
+                    "pierce/main button"
+                ],
+                [
+                    "aria/Remove"
+                ],
+                [
+                    "text/Remove"
+                ]
+            ],
+            "offsetY": 9.48748779296875,
+            "offsetX": 50.42498779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(3)"
+                ],
+                [
+                    "xpath//html/body/nav/div/div/a[3]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(3)"
+                ],
+                [
+                    "aria/Menu List"
+                ],
+                [
+                    "text/Menu List"
+                ]
+            ],
+            "offsetY": 20.800003051757812,
+            "offsetX": 60.875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/menulist.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "nav > a:nth-of-type(3)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[3]"
+                ],
+                [
+                    "pierce/nav > a:nth-of-type(3)"
+                ],
+                [
+                    "aria/Order"
+                ],
+                [
+                    "text/Order"
+                ]
+            ],
+            "offsetY": 23,
+            "offsetX": 24.45001220703125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/order.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 14.699996948242188,
+            "offsetX": 42.32501220703125
+        },
+        {
+            "type": "change",
+            "value": "1",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 12.699996948242188,
+            "offsetX": 44.32501220703125
+        },
+        {
+            "type": "change",
+            "value": "3",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 12.699996948242188,
+            "offsetX": 44.32501220703125
+        },
+        {
+            "type": "change",
+            "value": "4",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 12.699996948242188,
+            "offsetX": 44.32501220703125
+        },
+        {
+            "type": "change",
+            "value": "1",
+            "selectors": [
+                [
+                    "#item2"
+                ],
+                [
+                    "xpath///*[@id=\"item2\"]"
+                ],
+                [
+                    "pierce/#item2"
+                ],
+                [
+                    "aria/Cheese Pizza ($8.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "#item2"
+                ],
+                [
+                    "xpath///*[@id=\"item2\"]"
+                ],
+                [
+                    "pierce/#item2"
+                ],
+                [
+                    "aria/Cheese Pizza ($8.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item2"
+                ],
+                [
+                    "xpath///*[@id=\"item2\"]"
+                ],
+                [
+                    "pierce/#item2"
+                ],
+                [
+                    "aria/Cheese Pizza ($8.99):"
+                ]
+            ],
+            "offsetY": 10.699981689453125,
+            "offsetX": 47.32501220703125
+        },
+        {
+            "type": "change",
+            "value": "3",
+            "selectors": [
+                [
+                    "#item2"
+                ],
+                [
+                    "xpath///*[@id=\"item2\"]"
+                ],
+                [
+                    "pierce/#item2"
+                ],
+                [
+                    "aria/Cheese Pizza ($8.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item2"
+                ],
+                [
+                    "xpath///*[@id=\"item2\"]"
+                ],
+                [
+                    "pierce/#item2"
+                ],
+                [
+                    "aria/Cheese Pizza ($8.99):"
+                ]
+            ],
+            "offsetY": 10.699981689453125,
+            "offsetX": 47.32501220703125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(4)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[4]"
+                ],
+                [
+                    "pierce/a:nth-of-type(4)"
+                ],
+                [
+                    "aria/Location"
+                ],
+                [
+                    "text/Location"
+                ]
+            ],
+            "offsetY": 29,
+            "offsetX": 74.54998779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/location.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(5)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[5]"
+                ],
+                [
+                    "pierce/a:nth-of-type(5)"
+                ],
+                [
+                    "aria/Contact"
+                ],
+                [
+                    "text/Contact"
+                ]
+            ],
+            "offsetY": 24,
+            "offsetX": 58.04998779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/contact.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "offsetY": 2.0999908447265625,
+            "offsetX": 206.69998168945312
+        },
+        {
+            "type": "change",
+            "value": "J",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "j",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Jackie",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "wzhou60@my.centennialcollege.ca",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#message"
+                ],
+                [
+                    "xpath///*[@id=\"message\"]"
+                ],
+                [
+                    "pierce/#message"
+                ],
+                [
+                    "aria/Message:"
+                ]
+            ],
+            "offsetY": 20.100006103515625,
+            "offsetX": 130.69998168945312
+        },
+        {
+            "type": "change",
+            "value": "Hello",
+            "selectors": [
+                [
+                    "#message"
+                ],
+                [
+                    "xpath///*[@id=\"message\"]"
+                ],
+                [
+                    "pierce/#message"
+                ],
+                [
+                    "aria/Message:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main button"
+                ],
+                [
+                    "xpath//html/body/main/section[1]/form/button"
+                ],
+                [
+                    "pierce/main button"
+                ],
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 20.5,
+            "offsetX": 32.29998779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/contact.html?name=Jackie&email=wzhou60%40my.centennialcollege.ca&message=Hello",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(6)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[6]"
+                ],
+                [
+                    "pierce/a:nth-of-type(6)"
+                ],
+                [
+                    "aria/Member"
+                ],
+                [
+                    "text/Member"
+                ]
+            ],
+            "offsetY": 21,
+            "offsetX": 42.89996337890625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/assignment4.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#fname"
+                ],
+                [
+                    "xpath///*[@id=\"fname\"]"
+                ],
+                [
+                    "pierce/#fname"
+                ]
+            ],
+            "offsetY": 17.899993896484375,
+            "offsetX": 139.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "Jax",
+            "selectors": [
+                [
+                    "#fname"
+                ],
+                [
+                    "xpath///*[@id=\"fname\"]"
+                ],
+                [
+                    "pierce/#fname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Zed",
+            "selectors": [
+                [
+                    "#lname"
+                ],
+                [
+                    "xpath///*[@id=\"lname\"]"
+                ],
+                [
+                    "pierce/#lname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "dillcheese1@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#age"
+                ],
+                [
+                    "xpath///*[@id=\"age\"]"
+                ],
+                [
+                    "pierce/#age"
+                ],
+                [
+                    "aria/Age:"
+                ]
+            ],
+            "offsetY": 20.899993896484375,
+            "offsetX": 110.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "22",
+            "selectors": [
+                [
+                    "#age"
+                ],
+                [
+                    "xpath///*[@id=\"age\"]"
+                ],
+                [
+                    "pierce/#age"
+                ],
+                [
+                    "aria/Age:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#postalCode"
+                ],
+                [
+                    "xpath///*[@id=\"postalCode\"]"
+                ],
+                [
+                    "pierce/#postalCode"
+                ],
+                [
+                    "aria/Postal Code:"
+                ]
+            ],
+            "offsetY": 18.899993896484375,
+            "offsetX": 86.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "M1T2v1",
+            "selectors": [
+                [
+                    "#postalCode"
+                ],
+                [
+                    "xpath///*[@id=\"postalCode\"]"
+                ],
+                [
+                    "pierce/#postalCode"
+                ],
+                [
+                    "aria/Postal Code:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "QC",
+            "selectors": [
+                [
+                    "#province"
+                ],
+                [
+                    "xpath///*[@id=\"province\"]"
+                ],
+                [
+                    "pierce/#province"
+                ],
+                [
+                    "aria/Province:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#province"
+                ],
+                [
+                    "xpath///*[@id=\"province\"]"
+                ],
+                [
+                    "pierce/#province"
+                ],
+                [
+                    "aria/Province:"
+                ]
+            ],
+            "offsetY": 20.100006103515625,
+            "offsetX": 72.89996337890625
+        },
+        {
+            "type": "change",
+            "value": "ON",
+            "selectors": [
+                [
+                    "#province"
+                ],
+                [
+                    "xpath///*[@id=\"province\"]"
+                ],
+                [
+                    "pierce/#province"
+                ],
+                [
+                    "aria/Province:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "offsetY": 30.29998779296875,
+            "offsetX": 63.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "Q",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Qwert123",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyUp",
+            "key": "Shift",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "qwert123",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#register"
+                ],
+                [
+                    "xpath///*[@id=\"register\"]"
+                ],
+                [
+                    "pierce/#register"
+                ],
+                [
+                    "aria/Register"
+                ],
+                [
+                    "text/Register"
+                ]
+            ],
+            "offsetY": 27.5,
+            "offsetX": 64.42498779296875
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ],
+                [
+                    "text/qwert123"
+                ]
+            ],
+            "offsetY": 16.29998779296875,
+            "offsetX": 70.70001220703125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ],
+                [
+                    "text/qwert123"
+                ]
+            ],
+            "offsetY": 16.29998779296875,
+            "offsetX": 70.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "Q",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Qwert123",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "offsetY": 22.29998779296875,
+            "offsetX": 81.70001220703125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "offsetY": 22.29998779296875,
+            "offsetX": 81.70001220703125
+        },
+        {
+            "type": "change",
+            "value": "Q",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Qwert123",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#register"
+                ],
+                [
+                    "xpath///*[@id=\"register\"]"
+                ],
+                [
+                    "pierce/#register"
+                ],
+                [
+                    "aria/Register"
+                ],
+                [
+                    "text/Register"
+                ]
+            ],
+            "offsetY": 15.5,
+            "offsetX": 43.42498779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(7)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[7]"
+                ],
+                [
+                    "pierce/a:nth-of-type(7)"
+                ],
+                [
+                    "aria/Site Map & Credits"
+                ],
+                [
+                    "text/Site Map & Credits"
+                ]
+            ],
+            "offsetY": 36,
+            "offsetX": 76.21246337890625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://studentweb.cencol.ca/wzhou60/COMP125/Assignment1/sitemap.html",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1079 @@
+{
+    "title": "Restaurants",
+    "selectorAttribute": "data Test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1594,
+            "height": 217,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://127.0.0.1:5500/Assignment1/home.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/home.html",
+                    "title": "McRonalds"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "nav > a:nth-of-type(2)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[2]"
+                ],
+                [
+                    "pierce/nav > a:nth-of-type(2)"
+                ],
+                [
+                    "aria/About"
+                ],
+                [
+                    "text/About"
+                ]
+            ],
+            "offsetY": 21,
+            "offsetX": 40.569427490234375,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/about.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath//html/body/nav/div/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/Menu"
+                ]
+            ],
+            "offsetY": 30,
+            "offsetX": 26.3055419921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(1)"
+                ],
+                [
+                    "xpath//html/body/nav/div/div/a[1]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(1)"
+                ],
+                [
+                    "aria/Calendar"
+                ],
+                [
+                    "text/Calendar"
+                ]
+            ],
+            "offsetY": 12.333332061767578,
+            "offsetX": 30.3055419921875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/calendar.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(2)"
+                ],
+                [
+                    "xpath//html/body/header/nav/div/div/a[2]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(2)"
+                ],
+                [
+                    "aria/Gallery"
+                ],
+                [
+                    "text/Gallery"
+                ]
+            ],
+            "offsetY": 26.666664123535156,
+            "offsetX": 51.75,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/gallery.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "img:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"lbImages\"]/img[3]"
+                ],
+                [
+                    "pierce/img:nth-of-type(3)"
+                ],
+                [
+                    "aria/Our Famous Fries"
+                ]
+            ],
+            "offsetY": 44.97221374511719,
+            "offsetX": 101
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#addToFavorites"
+                ],
+                [
+                    "xpath///*[@id=\"addToFavorites\"]"
+                ],
+                [
+                    "pierce/#addToFavorites"
+                ],
+                [
+                    "aria/Add to Favorites"
+                ],
+                [
+                    "text/Add to Favorites"
+                ]
+            ],
+            "offsetY": 17.5555419921875,
+            "offsetX": 101.72222900390625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "section img"
+                ],
+                [
+                    "xpath///*[@id=\"favorites\"]/div/img"
+                ],
+                [
+                    "pierce/section img"
+                ]
+            ],
+            "offsetY": 69.3055419921875,
+            "offsetX": 111
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#favorites > div"
+                ],
+                [
+                    "xpath///*[@id=\"favorites\"]/div"
+                ],
+                [
+                    "pierce/#favorites > div"
+                ]
+            ],
+            "offsetY": 140.3055419921875,
+            "offsetX": 853
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main button"
+                ],
+                [
+                    "xpath///*[@id=\"favorites\"]/div/button"
+                ],
+                [
+                    "pierce/main button"
+                ],
+                [
+                    "aria/Remove"
+                ],
+                [
+                    "text/Remove"
+                ]
+            ],
+            "offsetY": 12.8194580078125,
+            "offsetX": 45.611083984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div a:nth-of-type(3)"
+                ],
+                [
+                    "xpath//html/body/nav/div/div/a[3]"
+                ],
+                [
+                    "pierce/div a:nth-of-type(3)"
+                ],
+                [
+                    "aria/Menu List"
+                ],
+                [
+                    "text/Menu List"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 66.3055419921875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/menulist.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > img"
+                ],
+                [
+                    "xpath//html/body/main/section/section/div[3]/img"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > img"
+                ],
+                [
+                    "aria/Chicken Nuggets[role=\"image\"]"
+                ]
+            ],
+            "offsetY": 159.52777099609375,
+            "offsetX": 178.77777099609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "nav > a:nth-of-type(3)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[3]"
+                ],
+                [
+                    "pierce/nav > a:nth-of-type(3)"
+                ],
+                [
+                    "aria/Order"
+                ],
+                [
+                    "text/Order"
+                ]
+            ],
+            "offsetY": 23,
+            "offsetX": 28.72222900390625,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/order.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "change",
+            "value": "1",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 9.597213745117188,
+            "offsetX": 44.02777099609375
+        },
+        {
+            "type": "change",
+            "value": "2",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item1"
+                ],
+                [
+                    "xpath///*[@id=\"item1\"]"
+                ],
+                [
+                    "pierce/#item1"
+                ],
+                [
+                    "aria/Classic Burger ($5.99):"
+                ]
+            ],
+            "offsetY": 11.597213745117188,
+            "offsetX": 44.02777099609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(4)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[4]"
+                ],
+                [
+                    "pierce/a:nth-of-type(4)"
+                ],
+                [
+                    "aria/Location"
+                ],
+                [
+                    "text/Location"
+                ]
+            ],
+            "offsetY": 29,
+            "offsetX": 32.8194580078125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/location.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(5)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[5]"
+                ],
+                [
+                    "pierce/a:nth-of-type(5)"
+                ],
+                [
+                    "aria/Contact"
+                ],
+                [
+                    "text/Contact"
+                ]
+            ],
+            "offsetY": 22,
+            "offsetX": 35.3194580078125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/contact.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "offsetY": 19.305557250976562,
+            "offsetX": 127.0555419921875
+        },
+        {
+            "type": "change",
+            "value": "JA",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "JAc",
+            "selectors": [
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ],
+                [
+                    "aria/Name:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "jzhou39@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "#message"
+                ],
+                [
+                    "xpath///*[@id=\"message\"]"
+                ],
+                [
+                    "pierce/#message"
+                ],
+                [
+                    "aria/Message:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#message"
+                ],
+                [
+                    "xpath///*[@id=\"message\"]"
+                ],
+                [
+                    "pierce/#message"
+                ],
+                [
+                    "aria/Message:"
+                ]
+            ],
+            "offsetY": 33.194427490234375,
+            "offsetX": 131.0555419921875
+        },
+        {
+            "type": "change",
+            "value": "Hello",
+            "selectors": [
+                [
+                    "#message"
+                ],
+                [
+                    "xpath///*[@id=\"message\"]"
+                ],
+                [
+                    "pierce/#message"
+                ],
+                [
+                    "aria/Message:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main button"
+                ],
+                [
+                    "xpath//html/body/main/section[1]/form/button"
+                ],
+                [
+                    "pierce/main button"
+                ],
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 18.416656494140625,
+            "offsetX": 71.5694580078125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/contact.html?name=JAc&email=jzhou39%40gmail.com&message=Hello",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(6)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[6]"
+                ],
+                [
+                    "pierce/a:nth-of-type(6)"
+                ],
+                [
+                    "aria/Member"
+                ],
+                [
+                    "text/Member"
+                ]
+            ],
+            "offsetY": 28,
+            "offsetX": 55.16668701171875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/assignment4.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#fname"
+                ],
+                [
+                    "xpath///*[@id=\"fname\"]"
+                ],
+                [
+                    "pierce/#fname"
+                ]
+            ],
+            "offsetY": 14.111114501953125,
+            "offsetX": 190.0555419921875
+        },
+        {
+            "type": "change",
+            "value": "Jackie",
+            "selectors": [
+                [
+                    "#fname"
+                ],
+                [
+                    "xpath///*[@id=\"fname\"]"
+                ],
+                [
+                    "pierce/#fname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Zhou)",
+            "selectors": [
+                [
+                    "#lname"
+                ],
+                [
+                    "xpath///*[@id=\"lname\"]"
+                ],
+                [
+                    "pierce/#lname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "jzhou39@gmail.com",
+            "selectors": [
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ],
+                [
+                    "aria/Email:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "22",
+            "selectors": [
+                [
+                    "#age"
+                ],
+                [
+                    "xpath///*[@id=\"age\"]"
+                ],
+                [
+                    "pierce/#age"
+                ],
+                [
+                    "aria/Age:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "L3S2M5",
+            "selectors": [
+                [
+                    "#postalCode"
+                ],
+                [
+                    "xpath///*[@id=\"postalCode\"]"
+                ],
+                [
+                    "pierce/#postalCode"
+                ],
+                [
+                    "aria/Postal Code:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "ON",
+            "selectors": [
+                [
+                    "#province"
+                ],
+                [
+                    "xpath///*[@id=\"province\"]"
+                ],
+                [
+                    "pierce/#province"
+                ],
+                [
+                    "aria/Province:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#lname"
+                ],
+                [
+                    "xpath///*[@id=\"lname\"]"
+                ],
+                [
+                    "pierce/#lname"
+                ],
+                [
+                    "text/Zhou)"
+                ]
+            ],
+            "offsetY": 21.5555419921875,
+            "offsetX": 103.0555419921875
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Delete"
+        },
+        {
+            "type": "keyUp",
+            "key": "Delete",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Zhou",
+            "selectors": [
+                [
+                    "#lname"
+                ],
+                [
+                    "xpath///*[@id=\"lname\"]"
+                ],
+                [
+                    "pierce/#lname"
+                ],
+                [
+                    "text/Zhou)"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main"
+                ],
+                [
+                    "xpath//html/body/main"
+                ],
+                [
+                    "pierce/main"
+                ]
+            ],
+            "offsetY": 185.33333206176758,
+            "offsetX": 412
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "offsetY": 17.111114501953125,
+            "offsetX": 53.0555419921875
+        },
+        {
+            "type": "change",
+            "value": "L",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "l",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Lordmole123",
+            "selectors": [
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ],
+                [
+                    "aria/Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "L",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "l",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Lordmole123",
+            "selectors": [
+                [
+                    "#confirmPassword"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPassword\"]"
+                ],
+                [
+                    "pierce/#confirmPassword"
+                ],
+                [
+                    "aria/Confirm Password:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#register"
+                ],
+                [
+                    "xpath///*[@id=\"register\"]"
+                ],
+                [
+                    "pierce/#register"
+                ],
+                [
+                    "aria/Register"
+                ],
+                [
+                    "text/Register"
+                ]
+            ],
+            "offsetY": 25.29168701171875,
+            "offsetX": 54.6944580078125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#reg-form"
+                ],
+                [
+                    "xpath///*[@id=\"reg-form\"]"
+                ],
+                [
+                    "pierce/#reg-form"
+                ]
+            ],
+            "offsetY": 302.8888854980469,
+            "offsetX": 545.6666564941406
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(7)"
+                ],
+                [
+                    "xpath//html/body/header/nav/a[7]"
+                ],
+                [
+                    "pierce/a:nth-of-type(7)"
+                ],
+                [
+                    "aria/Site Map & Credits"
+                ],
+                [
+                    "text/Site Map & Credits"
+                ]
+            ],
+            "offsetY": 38,
+            "offsetX": 30.486083984375,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://127.0.0.1:5500/Assignment1/sitemap.html",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
