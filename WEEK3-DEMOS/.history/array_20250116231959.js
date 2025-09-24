@@ -1,1 +1,0 @@
-let newSection = ["world", "local", "opinion","sports"] 
