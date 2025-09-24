@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McRonalds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="a4.js" defer></script>
+    <!-- <script src="a5.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-menu">
+                    <a href="calendar.html">Calendar</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="menulist.html">Menu List</a>
+                </div>
+            </div>
+            <a href="order.html">Order</a>
+            <a href="location.html">Location</a>
+            <a href="contact.html">Contact</a>
+            <a href="assignment4.html">Member</a>
+
+            <a href="sitemap.html">Site Map & Credits</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="registration-form" id="registration-form">
+            <h1>Member Registration</h1>
+            <h2>Please fill out the form below:</h2>
+            <form id="reg-form">
+                <label for="name">First Name:</label>
+                <input type="text" name="fname" id="fname" required>
+
+                <label for="name">Last Name:</label>
+                <input type="text" name="lname" id="lname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" pattern=".+@.+\..+" required>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" required>
+
+                <label for="postalCode">Postal Code:</label>
+                <input type="text" name="postalCode" id="postalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]"
+                    required>
+
+                <label for="province">Province:</label>
+                <select name="province" id="province" required>
+                    <option value="QC">Quebec (QC)</option>
+                    <option value="ON">Ontario (ON)</option>
+                    <option value="MN">Manitoba (MN)</option>
+                    <option value="SK">Saskatchewan (SK)</option>
+                    <option value="AB">Alberta (AB)</option>
+                    <option value="BC">British Columbia (BC)</option>
+                </select>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" pattern="(?=.*[A-Z])(?=.*\d).{6,}" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" required>
+
+                <fieldset>
+                    <button type="submit" id="register">Register</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
